@@ -41,19 +41,19 @@ abstract class RoomDb : RoomDatabase() {
         private val description =
             "This is the description text that is supposed to be long enough to show how the UI looks, so it's not a real text.\n"
         private val manufacturers = listOf(
-            Manufacturer(id = 1, name = "Nike", icon = R.drawable.ic_nike),
-            Manufacturer(id = 2, name = "Adidas", icon = R.drawable.adidas_48),
+            Manufacturer(id = 1, name = "Category1", icon = R.drawable.instrument),
+            Manufacturer(id = 2, name = "Categiry2", icon = R.drawable.instrument),
         )
         private val advertisements = listOf(
-            Advertisement(1, R.drawable.air_huarache_gold_black_ads, 1, 0),
-            Advertisement(2, R.drawable.pegasus_trail_gortex_ads, 2, 0),
-            Advertisement(3, R.drawable.blazer_low_black_ads, 3, 0),
+            Advertisement(1, R.drawable.avtomobil_moyi, 1, 0),
+            Advertisement(2, R.drawable.avtomobil_moyi, 2, 0),
+            Advertisement(3, R.drawable.avtomobil_moyi, 3, 0),
         )
         private val nikeProducts = listOf(
             Product(
                 id = 1,
                 name = "Pegasus Trail Gortex Green",
-                image = R.drawable.pegasus_trail_3_gore_tex_dark_green,
+                image = R.drawable.podshipniklar,
                 price = 149.0,
                 description = description,
                 manufacturerId = 1,
@@ -65,13 +65,13 @@ abstract class RoomDb : RoomDatabase() {
                         image = it.image),
                     ProductColor(productId = it.id,
                         colorName = "lemon",
-                        image = R.drawable.pegasus_trail_3_gore_tex_lemon),
+                        image = R.drawable.podshipniklar),
                 )
             },
             Product(
                 id = 3,
                 name = "Air Huarache Gold",
-                image = R.drawable.air_huarache_le_gold_black,
+                image = R.drawable.podshipniklar,
                 price = 159.0,
                 description = description,
                 manufacturerId = 1,
@@ -83,19 +83,19 @@ abstract class RoomDb : RoomDatabase() {
                         image = it.image),
                     ProductColor(productId = it.id,
                         colorName = "gray",
-                        image = R.drawable.air_huarache_le_gray_dark),
+                        image = R.drawable.kolotka),
                     ProductColor(productId = it.id,
                         colorName = "pink",
-                        image = R.drawable.air_huarache_le_pink_black),
+                        image = R.drawable.kolotka),
                     ProductColor(productId = it.id,
                         colorName = "red",
-                        image = R.drawable.air_huarache_le_red_black),
+                        image = R.drawable.kolotka),
                 )
             },
             Product(
                 id = 7,
                 name = "Blazer Low Black",
-                image = R.drawable.blazer_low_black,
+                image = R.drawable.podshipniklar,
                 price = 120.0,
                 description = description,
                 manufacturerId = 1,
@@ -107,10 +107,10 @@ abstract class RoomDb : RoomDatabase() {
                         image = it.image),
                     ProductColor(productId = it.id,
                         colorName = "pink",
-                        image = R.drawable.blazer_low_pink),
+                        image = R.drawable.podshipniklar),
                     ProductColor(productId = it.id,
                         colorName = "lemon",
-                        image = R.drawable.blazer_low_light_green),
+                        image = R.drawable.podshipniklar),
                 )
             },
         )
@@ -118,7 +118,7 @@ abstract class RoomDb : RoomDatabase() {
             Product(
                 id = 10,
                 name = "Defiant Generation Green",
-                image = R.drawable.defiant_generation_green,
+                image = R.drawable.filterlar,
                 price = 149.0,
                 description = description,
                 manufacturerId = 2,
@@ -130,14 +130,14 @@ abstract class RoomDb : RoomDatabase() {
                         image = it.image),
                     ProductColor(productId = it.id,
                         colorName = "red",
-                        image = R.drawable.defiant_generation_red),
+                        image = R.drawable.filterlar),
                 )
             },
 
             Product(
                 id = 12,
                 name = "Solarthon Primegreen Gray",
-                image = R.drawable.solarthon_primegreen_gray,
+                image = R.drawable.filterlar,
                 price = 159.0,
                 description = description,
                 manufacturerId = 2,
@@ -149,10 +149,10 @@ abstract class RoomDb : RoomDatabase() {
                         image = it.image),
                     ProductColor(productId = it.id,
                         colorName = "black",
-                        image = R.drawable.solarthon_primegreen_black),
+                        image = R.drawable.filterlar),
                     ProductColor(productId = it.id,
                         colorName = "red",
-                        image = R.drawable.solarthon_primegreen_red),
+                        image = R.drawable.filterlar),
                 )
             },
         )
@@ -188,9 +188,9 @@ abstract class RoomDb : RoomDatabase() {
             ),
         )
         private val userLocation = Location(
-            address = "AlTaif 51, st 5",
-            city = "Khartoum",
-            country = "Sudan",
+            address = "BIY 427, 40",
+            city = "Tashkent",
+            country = "Uzbekistan",
         )
 
         init {
@@ -222,11 +222,11 @@ abstract class RoomDb : RoomDatabase() {
                 dao.saveUser(
                     User(
                         userId = 1,
-                        name = "Mustafa Ibrahim",
-                        profile = R.drawable.mustapha_profile,
-                        phone = "+249922943879",
-                        email = "mustfaibra@gmail.com",
-                        password = "12344321",
+                        name = "Asilbek Mirolimov",
+                        profile = R.drawable.asilbek_profile,
+                        phone = "+998901234567",
+                        email = "asilbekmirolimov@gmail.com",
+                        password = "12345678",
                         token = "ds2f434ls2ks2lsj2ls",
                     )
                 )
