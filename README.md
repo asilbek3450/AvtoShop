@@ -20,20 +20,7 @@ RoFFu is an online store specialized in sports shoes & Sneakers of many famous c
 
 # 🧐Want to try it?
 
-You can download the demo from [here](https://github.com/mustfaibra/RoFFu/blob/master/app/release/roffu.apk).
-
-
-# 📸Screenshots
-
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/splash.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/landing.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/home.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/details.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/cart.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/login.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/checkout.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/profile.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/history.jpg" width="200">
+You can download the demo from [here](https://github.com/asilbek3450/AvtoShop/blob/master/app/release/roffu.apk).
 
 
 # 🧑🏾‍💻Tech used
@@ -54,19 +41,11 @@ You can download the demo from [here](https://github.com/mustfaibra/RoFFu/blob/m
 * [WhatIf](https://github.com/skydoves/WhatIf) for handling single if-else statements, nullable, collections, and boolean smoothly and in readable & cleaner way.
 
 
-# 🔗Do you Want more?
 
-Feel free to connect or to follow me here 👇🏾
+## How to reach me
+<a href="https://www.github.com/asilbek3450" target="_blank"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=GitHub&logoColor=white" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/asilbek-mirolimov-874a8921a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.facebook.com/asilbek.mirolimov.37/" target="_blank"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=Facebook&logoColor=white" alt="Facebook"></a>
+<a href="https://www.instagram.com/mirolimov.1/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white" alt="Instagram"></a>
+<a href="https://t.me/mirolimov_a" target="_blank"><img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=flat-square&logo=Telegram&logoColor=white" alt="Telegram"></a>
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com//in/mustafa-ibrahim-58b918206/)
-
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mustfaibra)
-
-Also, don't forget to ⭐ this repository 😁
-
-
-# 😍You like what Iam doing?
-
-How about buying me a coffee so that I keep doing it 😁👇🏾
-
-[☕ Buy me a coffee](https://www.buymeacoffee.com/mustfaibra)
