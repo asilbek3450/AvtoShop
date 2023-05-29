@@ -42,7 +42,7 @@ abstract class RoomDb : RoomDatabase() {
             "This is the description text that is supposed to be long enough to show how the UI looks, so it's not a real text.\n"
         private val manufacturers = listOf(
             Manufacturer(id = 1, name = "Category1", icon = R.drawable.instrument),
-            Manufacturer(id = 2, name = "Categiry2", icon = R.drawable.instrument),
+            Manufacturer(id = 2, name = "Category2", icon = R.drawable.instrument),
         )
         private val advertisements = listOf(
             Advertisement(1, R.drawable.avtomobil_moyi, 1, 0),

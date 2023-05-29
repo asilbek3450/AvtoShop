@@ -3,6 +3,7 @@ package com.mustfaibra.roffu.screens.login
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.util.Log
 import androidx.compose.runtime.mutableStateOf
 import androidx.datastore.preferences.core.edit
 import androidx.lifecycle.ViewModel
@@ -29,8 +30,9 @@ class LoginViewModel @Inject constructor(
     private val context: Context,
 ) : ViewModel() {
     val uiState = mutableStateOf<UiState>(UiState.Idle)
-    val emailOrPhone = mutableStateOf<String?>("mustfaibra@gmail.com")
-    val password = mutableStateOf<String?>("12344321")
+
+    val emailOrPhone = mutableStateOf<String?>("asilbekmirolimov@gmail.com")
+    val password = mutableStateOf<String?>("1234")
 
     fun updateEmailOrPhone(value: String?) {
         this.emailOrPhone.value = value
@@ -65,12 +67,14 @@ class LoginViewModel @Inject constructor(
                                 /** save user id */
                                 saveUserIdToPreferences(userId = user.userId)
                                 onAuthenticated()
+                                Log.d("TAG", "authenticateUser: $user")
                             }
                         }
                         is DataResponse.Error -> {
                             /** An error occurred while authenticating */
                             uiState.value = UiState.Error(error = it.error ?: Error.Network)
                             onAuthenticationFailed()
+                            Log.d("TAG", "authenticateUser:")
                         }
                     }
                 }
