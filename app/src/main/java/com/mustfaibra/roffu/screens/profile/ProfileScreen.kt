@@ -85,7 +85,7 @@ fun ProfileScreen(
                     ) {
                         Text(
                             modifier = Modifier.weight(1f),
-                            text = "Add virtual card",
+                            text = "Virtual karta qo'shish",
                             style = MaterialTheme.typography.button,
                         )
                         IconButton(
@@ -99,7 +99,7 @@ fun ProfileScreen(
                         )
                     }
                     Text(
-                        text = "Virtual cards allow you to purchase products on the store.",
+                        text = "Virtual kartalar do'konda mahsulot sotib olish imkonini beradi.",
                         style = MaterialTheme.typography.body2,
                     )
                 }
@@ -108,7 +108,7 @@ fun ProfileScreen(
         /** General options */
         item {
             Text(
-                text = "General",
+                text = "Umumiy",
                 style = MaterialTheme.typography.body1,
             )
         }
@@ -126,7 +126,7 @@ fun ProfileScreen(
         /** Personal options */
         item {
             Text(
-                text = "Personal",
+                text = "Shaxiy",
                 style = MaterialTheme.typography.body1,
             )
         }

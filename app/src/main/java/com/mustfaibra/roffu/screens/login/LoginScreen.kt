@@ -178,7 +178,7 @@ fun LoginScreen(
                 modifier = Modifier
                     .background(MaterialTheme.colors.background)
                     .padding(horizontal = Dimension.pagePadding.div(2)),
-                text = "Or using",
+                text = "Yoki",
                 style = MaterialTheme.typography.caption
                     .copy(
                         fontWeight = FontWeight.SemiBold,

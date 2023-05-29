@@ -220,7 +220,7 @@ fun ProductDetailsScreen(
                             to = 0.dp,
                             duration = 700,
                         ),
-                    text = if (isOnCartStateProvider()) "Remove from cart" else "Add to cart",
+                    text = if (isOnCartStateProvider()) "Savatdan o'chirish" else "Savatga qo'shish",
                     onButtonClicked = { onUpdateCartState(productId) },
                     buttonColor = MaterialTheme.colors.primary,
                     contentColor = MaterialTheme.colors.onPrimary,

@@ -52,7 +52,7 @@ abstract class RoomDb : RoomDatabase() {
         private val nikeProducts = listOf(
             Product(
                 id = 1,
-                name = "Pegasus Trail Gortex Green",
+                name = "Product 1",
                 image = R.drawable.podshipniklar,
                 price = 149.0,
                 description = description,
@@ -70,7 +70,7 @@ abstract class RoomDb : RoomDatabase() {
             },
             Product(
                 id = 3,
-                name = "Air Huarache Gold",
+                name = "Product 3",
                 image = R.drawable.podshipniklar,
                 price = 159.0,
                 description = description,
@@ -94,7 +94,7 @@ abstract class RoomDb : RoomDatabase() {
             },
             Product(
                 id = 7,
-                name = "Blazer Low Black",
+                name = "Product 7",
                 image = R.drawable.podshipniklar,
                 price = 120.0,
                 description = description,
@@ -117,7 +117,7 @@ abstract class RoomDb : RoomDatabase() {
         private val adidasProducts = listOf(
             Product(
                 id = 10,
-                name = "Defiant Generation Green",
+                name = "Product 10",
                 image = R.drawable.filterlar,
                 price = 149.0,
                 description = description,
@@ -136,7 +136,7 @@ abstract class RoomDb : RoomDatabase() {
 
             Product(
                 id = 12,
-                name = "Solarthon Primegreen Gray",
+                name = "Product 12",
                 image = R.drawable.filterlar,
                 price = 159.0,
                 description = description,

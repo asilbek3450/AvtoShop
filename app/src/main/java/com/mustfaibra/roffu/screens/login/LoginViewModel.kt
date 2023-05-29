@@ -32,7 +32,7 @@ class LoginViewModel @Inject constructor(
     val uiState = mutableStateOf<UiState>(UiState.Idle)
 
     val emailOrPhone = mutableStateOf<String?>("asilbekmirolimov@gmail.com")
-    val password = mutableStateOf<String?>("1234")
+    val password = mutableStateOf<String?>("12345678")
 
     fun updateEmailOrPhone(value: String?) {
         this.emailOrPhone.value = value

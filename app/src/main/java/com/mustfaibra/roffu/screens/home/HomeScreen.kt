@@ -249,7 +249,7 @@ fun SearchField(
             .fillMaxWidth(),
         value = value,
         onValueChange = onValueChange,
-        placeholder = "What are you looking for?",
+        placeholder = "Qidiruv",
         textStyle = MaterialTheme.typography.caption.copy(fontWeight = FontWeight.Medium),
         padding = PaddingValues(
             horizontal = Dimension.pagePadding,
